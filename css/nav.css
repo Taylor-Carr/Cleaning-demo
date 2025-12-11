@@ -1,0 +1,87 @@
+/* ======================
+   NAVIGATION
+========================*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR */
+.navbar{
+  width:100%;
+  padding:20px 30px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  background:#fff;
+  color:#000;
+  position:relative;
+}
+
+.logo{
+  font-size:28px;
+  font-weight:600;
+}
+
+nav ul{
+  display:flex;
+  list-style:none;
+  gap:25px;
+}
+
+nav a{
+  text-decoration:none;
+  color:#111;
+  font-size:15px;
+}
+
+/* RIGHT BUTTONS */
+.nav-buttons{
+  display:flex;
+  gap:15px;
+  align-items:center;
+}
+
+.btn{
+  background:#111;
+  color:white;
+  padding:10px 16px;
+  border-radius:6px;
+  text-decoration:none;
+}
+
+/* BURGER */
+.burger{
+  display:none;
+  font-size:30px;
+  cursor:pointer;
+}
+
+/* MOBILE DROPDOWN */
+.mobile-menu{
+  position:absolute;
+  top:70px;
+  left:0;
+  width:100%;
+  background:#fff;
+  display:none;
+  flex-direction:column;
+  padding:20px;
+  z-index:10;
+}
+.mobile-menu a{
+  padding:10px 0;
+  color:#073725;
+}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  nav, .nav-buttons{
+    display:none;
+  }
+  .burger{
+    display:block;
+  }
+}

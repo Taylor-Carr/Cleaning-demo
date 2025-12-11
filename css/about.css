@@ -1,0 +1,102 @@
+/* ===============================
+   ABOUT SECTION
+================================ */
+.about-section {
+  padding: 80px 20px;
+  background: #fafafa;
+  display: flex;
+  justify-content: center;
+}
+
+.about-container {
+  max-width: 1200px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: start;
+}
+
+/* ---------- LEFT SIDE ---------- */
+.about-label {
+  color: #d35400;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.about-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.about-img {
+  width: 100%;
+  border-radius: 18px;
+  object-fit: cover;
+  display: block;
+}
+
+.about-img-large {
+  height: 490px;
+}
+
+.about-img-small {
+  height: 300px;
+  margin-top: 30px;
+}
+
+/* ---------- RIGHT SIDE ---------- */
+.about-text {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 25px;
+  max-width: 500px;
+}
+
+.highlight {
+  color: #d35400;
+  font-weight: 600;
+}
+
+.about-btn {
+  display: inline-block;
+  background: #ff6d3a;
+  color: #fff;
+  padding: 12px 26px;
+  border-radius: 22px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.25s ease;
+  margin-bottom: 25px;
+}
+
+.about-btn:hover {
+  background: #e85c28;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 900px) {
+  .about-container {
+    grid-template-columns: 1fr;
+  }
+
+  .about-img-large {
+    height: auto;
+  }
+
+  .about-img-small {
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .about-right {
+    order: 2;
+  }
+}
+
+

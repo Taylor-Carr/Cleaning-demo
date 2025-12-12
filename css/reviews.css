@@ -1,6 +1,6 @@
 /* SECTION */
 .results-section {
-  padding: 120px 60px 80px;
+  padding: 120px 40px 80px;
   background: #f6f6f6;
   font-family: "Inter", sans-serif;
   color: #111;
@@ -8,7 +8,7 @@
 
 /* TOP AREA */
 .results-top {
-  max-width: 1300px;
+  max-width: 1200px;
   margin: 0 auto 60px;
   display: flex;
   justify-content: space-between;

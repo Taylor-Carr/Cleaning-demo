@@ -1,6 +1,6 @@
 /* ROOT SECTION */
 .visual-gallery {
-  padding: 110px 40px 120px;
+  padding: 110px 20px 120px;
   font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   text-align: center;
   background: #f8f7ff;
@@ -78,8 +78,8 @@
   position: absolute;
   top: 0;
   left: 50%;
-  width: 260px;
-  height: 360px;
+  width: 500px;
+  height: 250px;
   border-radius: 22px;
   overflow: hidden;
   transform: translateX(-50%) scale(0.7);
@@ -107,8 +107,8 @@
 .vg-card--center {
   opacity: 1;
   pointer-events: auto;
-  width: 320px;
-  height: 430px;
+  width: 640px;
+  height: 350px;
   transform: translateX(-50%) translateY(0) scale(1);
   filter: none;
   z-index: 3;
@@ -118,8 +118,8 @@
 .vg-card--left,
 .vg-card--right {
   opacity: 1;
-  width: 270px;
-  height: 380px;
+  width: 590px;
+  height: 300px;
   transform: translateY(25px) scale(0.9);
   z-index: 2;
 }
@@ -136,8 +136,8 @@
 .vg-card--far-left,
 .vg-card--far-right {
   opacity: 0.7;
-  width: 240px;
-  height: 340px;
+  width: 460px;
+  height: 260px;
   transform: translateY(40px) scale(0.8);
   z-index: 1;
 }

@@ -9,7 +9,9 @@ body{
 
 /* HERO */
 .hero{
-  padding:80px 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding:80px 20px;
 }
 
 .small-title{

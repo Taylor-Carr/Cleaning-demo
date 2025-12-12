@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <title>Cleaning Demo</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+<!--NAV SECTION-->    
+<header class="navbar">
+  <div class="logo">Oyster</div>
+
+  <nav>
+    <ul>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Solutions</a></li>
+      <li><a href="#">Pricing</a></li>
+    </ul>
+  </nav>
+
+  <div class="nav-buttons">
+    <a href="#" class="btn">Book a Demo</a>
+  </div>
+</header>
+
+<!--HERO SECTION-->
+<section class="hero">
+  <div class="hero-text">
+      <p class="small-title">FOR HR LEADERS & FOUNDERS BUILDING GLOBAL TEAMS</p>
+      <h1>
+        All your <br>
+        global employment <br>
+        needs in <span>one place</span>
+      </h1>
+      <p class="subtext">
+        Build your global team in 180+ countries without opening local offices.
+        Our easy-to-use global HR platform helps you hire remotely, manage
+        payroll, and ensure compliance ethically, with real employment experts
+        by your side.
+      </p>
+      <div class="hero-buttons">
+        <a href="#" class="btn">Book a Demo</a>
+        <a href="#" class="chat-btn">💬 Chat Now</a>
+      </div>
+  </div>
+</section>
+
+<!--THREE MAIN services-->
+<section class="steps-section">
+  <div class="steps-container">
+    <!-- STEP 1 -->
+    <div class="step-item">
+      <span class="step-number">01</span>
+      <h3 class="step-title">WE GET OBSESSED</h3>
+      <p class="step-text">
+        We can’t help it. We care too much. So we go deeper and search wider to learn
+        everything about your company and unearth unexpected storytelling ingredients.
+      </p>
+    </div>
+
+    <!-- STEP 2 -->
+    <div class="step-item">
+      <span class="step-number">02</span>
+      <h3 class="step-title">WE FIND YOUR STORY</h3>
+      <p class="step-text">
+        And not just an origin story or a generic “We believe.” It’s a culturally relevant
+        why that gets the world talking.<br><br>
+        It’s your new foundation. Your north star. And once you have it, everything else—
+        from design to product strategy—emerges naturally.
+      </p>
+    </div>
+
+    <!-- STEP 3 -->
+    <div class="step-item">
+      <span class="step-number">03</span>
+      <h3 class="step-title">WE BUILD YOU A BRAND</h3>
+      <p class="step-text">
+        Next, we bring your story to life with unignorable design and copy that makes your
+        customers care. Across the whole user experience, from product to marketing.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ABOUT -->
+<!-- ABOUT -->
+<section class="story-wrapper">
+    <div class="story-section">
+        <div class="story-container">
+
+            <!-- LEFT SIDE (NEW, MATCHES THE IMAGE REFERENCE) -->
+            <div class="story-left">
+
+                <h2 class="about-title">About Our Company</h2>
+
+                <p class="about-subtitle">
+                    With years of experience in the construction industry, we specialize in delivering
+                    high-quality, innovative, and sustainable solutions tailored to meet the unique needs
+                    of our clients.
+                </p>
+
+                <div class="image-stack">
+                    <img src="/images/benefits-image.jpg" class="main-img" alt="">
+    
+                </div>
+
+            </div>
+
+            <!-- RIGHT SIDE (UNCHANGED — sticky scroll animation) -->
+            <div class="story-right">
+
+                <div class="story-block active story-paragraph">
+                    <h3 class="story-block-title">My Background</h3>
+                    <p>
+                        Before building websites, I worked in the construction industry for 8 years, so I've seen
+                        firsthand how customers decide who to work with.
+                    </p>
+                </div>
+
+                <div class="story-block story-paragraph">
+                    <h3 class="story-block-title">How Customers Decide</h3>
+                    <p>
+                        Most customers search “tradesperson near me”, check your Google reviews, and then your website
+                        to learn more about you and the services you offer. The last part is often where things go wrong.
+                    </p>
+                </div>
+
+                <div class="story-block story-paragraph">
+                    <h3 class="story-block-title">Why Your Website Matters</h3>
+                    <p>
+                        That's why having a professional website is so important, so potential customers can quickly
+                        tick every box and feel confident enough to get in touch.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<!--REVIEWS SECTION-->
+<section class="results-section">
+  <div class="results-top">
+    <div class="results-left">
+      <p class="results-label">Results</p>
+      <h2 class="results-heading">
+        Driven by a <br>
+        <span class="italic">performance</span> mindset
+      </h2>
+    </div>
+    <div class="results-right">
+      <p class="results-desc">
+        You don’t just hire experts – you hire people with a drive to deliver results.
+        The Dapper team thrives on impact. When you work with us, you’ll work with a
+        team as ambitious about growth as you are.
+      </p>
+      <a href="#" class="results-btn">
+        Explore our cases <span class="arrow-icon">↗</span>
+      </a>
+      <div class="results-arrows">
+        <button class="arrow-btn prev">←</button>
+        <button class="arrow-btn next">→</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDER -->
+  <div class="results-slider" id="resultsSlider">
+    <!-- CARD 1 -->
+    <div class="review-card">
+      <blockquote>
+        “ We saw a 200% increase in Sales Qualified Leads ”
+      </blockquote>
+      <div class="review-footer">
+        <div class="review-person">
+          <img src="avatar1.jpg" alt="">
+          <div>
+            <h4>Reza Schott</h4>
+            <p>Head of Marketing · OPP</p>
+          </div>
+        </div>
+        <img src="company1.png" class="review-logo" alt="">
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="review-card">
+      <blockquote>
+        “ This is the first marketing agency I’ve worked with where I see results. ”
+      </blockquote>
+      <div class="review-footer">
+        <div class="review-person">
+          <img src="avatar2.jpg" alt="">
+          <div>
+            <h4>Machiel Kunst</h4>
+            <p>Bluebird</p>
+          </div>
+        </div>
+        <img src="company2.png" class="review-logo" alt="">
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="review-card">
+      <blockquote>
+        “ Working with this team transformed our entire growth strategy. ”
+      </blockquote>
+      <div class="review-footer">
+        <div class="review-person">
+          <img src="avatar3.jpg" alt="">
+          <div>
+            <h4>Sarah Lin</h4>
+            <p>Growth Lead · NovaTech</p>
+          </div>
+        </div>
+        <img src="company3.png" class="review-logo" alt="">
+      </div>
+    </div>
+
+    <!-- CARD 4 -->
+    <div class="review-card">
+      <blockquote>
+        “ Their insights helped us scale faster than we expected. ”
+      </blockquote>
+      <div class="review-footer">
+        <div class="review-person">
+          <img src="avatar4.jpg" alt="">
+          <div>
+            <h4>David Nunez</h4>
+            <p>Founder · BrightLabs</p>
+          </div>
+        </div>
+        <img src="company4.png" class="review-logo" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--FEATURES SECTION-->
+<section class="why">
+  <div class="why-container">
+
+    <div class="why-left">
+      <img src="/images/benefits-image.jpg" alt="cleaning">
+    </div>
+
+    <div class="why-right">
+      <h2>Why Choose The Cleanic</h2>
+
+      <div class="why-grid">
+
+        <div class="why-item">
+          <span class="why-icon">★</span>
+          <div>
+            <h4>Qualified Team</h4>
+            <p>I'm a paragraph. Click here to add your own text and edit me.</p>
+          </div>
+        </div>
+
+        <div class="why-item">
+          <span class="why-icon">★</span>
+          <div>
+            <h4>Same Day Availability</h4>
+            <p>I'm a paragraph. Click here to add your own text and edit me.</p>
+          </div>
+        </div>
+
+        <div class="why-item">
+          <span class="why-icon">★</span>
+          <div>
+            <h4>Outstanding Support</h4>
+            <p>I'm a paragraph. Click here to add your own text and edit me.</p>
+          </div>
+        </div>
+
+        <div class="why-item">
+          <span class="why-icon">★</span>
+          <div>
+            <h4>Eco-Friendly Materials</h4>
+            <p>I'm a paragraph. Click here to add your own text and edit me.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="why-btn-box">
+        <a class="why-btn" href="#">Get to Know Us</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!--GALLERY SECTION-->
+<section class="visual-gallery new-gallery">
+  <p class="vg-label">GALLERY</p>
+  <h2 class="vg-title">My Visual Diary</h2>
+  <p class="vg-subtitle">See the world through my lens:<br>adventures in photos and videos</p>
+  <div class="vg-filters"> </div>
+  <div class="vg-carousel-wrapper">
+    <div class="vg-cards" id="newGalleryCards">
+      <div class="vg-card"><img src="/images/benefits-image.jpg"></div>
+      <div class="vg-card"><img src="/images/benefits-image.jpg"></div>
+      <div class="vg-card"><img src="/images/benefits-image.jpg"></div>
+      <div class="vg-card"><img src="/images/benefits-image.jpg"></div>
+      <div class="vg-card"><img src="/images/benefits-image.jpg"></div>
+    </div>
+    <div class="vg-nav-controls">
+      <button class="vg-nav-btn new-gallery-prev">←</button>
+      <button class="vg-nav-btn new-gallery-next">→</button>
+    </div>
+  </div>
+</section>
+
+
+<!--FAQ SECTION-->
+<section class="faq-section">
+  <div class="faq-container">
+
+    <h3 class="faq-heading">Our Services</h3>
+
+    <!-- ITEM 1 -->
+    <div class="faq-item">
+      <button class="faq-question" type="button">Lawn Care & Mowing</button>
+      <div class="faq-answer">
+        <p>We provide scheduled mowing, trimming and regular lawn upkeep.</p>
+      </div>
+    </div>
+
+    <!-- ITEM 2 -->
+    <div class="faq-item">
+      <button class="faq-question" type="button">Landscape Design</button>
+      <div class="faq-answer">
+        <p>Complete landscape planning and installation services.</p>
+      </div>
+    </div>
+
+    <!-- ITEM 3 -->
+    <div class="faq-item">
+      <button class="faq-question" type="button">Garden Planning</button>
+      <div class="faq-answer">
+        <p>Custom garden layouts for all seasons.</p>
+      </div>
+    </div>
+
+    <!-- CTA BUTTON -->
+    <div class="faq-cta">
+      <a href="#" class="faq-btn">At Your Service</a>
+    </div>
+
+  </div>
+</section>
+
+
+<!--CONTACT SECTION-->
+<section class="contact-section">
+  <div class="contact-container">
+
+    <!-- TITLE -->
+    <h2 class="contact-title">
+      Have questions or<br>need assistance?
+    </h2>
+
+    <!-- SUBTEXT -->
+    <p class="contact-subtext">
+      We're here to help! Whether you have inquiries about our services, need guidance 
+      on your next steps, or require support, our team is ready to assist you.
+    </p>
+
+    <!-- CONTACT GRID -->
+    <div class="contact-grid">
+
+      <div class="contact-item">
+        <h4>Message Us</h4>
+        <p class="contact-value">support@urbanet.com</p>
+      </div>
+
+      <div class="contact-item">
+        <h4>Call Us</h4>
+        <p class="contact-value">(555) 987-6543</p>
+      </div>
+
+      <div class="contact-item">
+        <h4>Location</h4>
+        <p class="contact-value">
+          4567 Elm Street, Suite 301,<br>
+          Greenfield, TX, 78901
+        </p>
+      </div>
+
+      <div class="contact-item">
+        <h4>Business Hours</h4>
+        <p class="contact-value">
+          Monday – Friday, 9:00 AM – 6:00 PM
+        </p>
+      </div>
+
+    </div>
+
+    <!-- SOCIAL MEDIA -->
+    <div class="contact-social">
+      <h4>Social Media</h4>
+      <div class="social-icons">
+        <i class="icon">✕</i>
+        <i class="icon">✤</i>
+        <i class="icon">✪</i>
+        <i class="icon">✧</i>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!--FOOTER-->
+<footer class="footer">
+  <div class="footer-inner">
+
+    <!-- LEFT TAGLINE + LOGO -->
+    <div class="footer-brand">
+      <img src="/images/logo-white.svg" alt="Logo" class="footer-logo">
+      <p class="footer-tagline">The payments platform designed to put<br>merchants first</p>
+    </div>
+
+    <!-- LINK COLUMNS -->
+    <div class="footer-links">
+
+      <div class="footer-col">
+        <h3>About Us</h3>
+        <a href="#">Our Story</a>
+        <a href="#">Newsroom</a>
+        <a href="#">Careers</a>
+        <a href="#">Our Brands</a>
+        <a href="#">Articles</a>
+        <a href="#">Partners</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="footer-col">
+        <h3>Merchants</h3>
+        <a href="#">Solutions</a>
+        <a href="#">How It Works</a>
+        <a href="#">Talk to Sales</a>
+        <a href="#">Integrations</a>
+        <a href="#">Docs</a>
+        <a href="#">Merchant Sign In</a>
+      </div>
+
+      <div class="footer-col">
+        <h3>Shoppers</h3>
+        <a href="#">Help</a>
+        <a href="#">How It Works</a>
+        <a href="#">Shoppers Sign In</a>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- BOTTOM BAR -->
+  <div class="footer-bottom">
+    <div class="footer-bottom-left">
+      <span>© Tandym 2023</span>
+      <a href="#">Terms of Service</a>
+      <a href="#">Privacy Policy</a>
+    </div>
+
+    <div class="footer-social">
+      <a href="#"><img src="/images/x-icon.svg" alt="X"></a>
+      <a href="#"><img src="/images/instagram-icon.svg" alt="Instagram"></a>
+      <a href="#"><img src="/images/facebook-icon.svg" alt="Facebook"></a>
+      <a href="#"><img src="/images/linkedin-icon.svg" alt="LinkedIn"></a>
+    </div>
+  </div>
+</footer>
+
+
+<script src="/js/script.js"></script>
+</body>
+</html>

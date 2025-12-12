@@ -3,14 +3,14 @@
 =========================== */
 
 .contact-section {
-  padding: 100px 40px;
+  padding: 100px 30px;
   background: #fff;
   font-family: "Inter", sans-serif;
   color: #1a1a1a;
 }
 
 .contact-container {
-  max-width: 950px;
+  max-width: 1200px;
   margin: auto;
 }
 

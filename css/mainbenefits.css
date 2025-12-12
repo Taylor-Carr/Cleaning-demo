@@ -1,6 +1,6 @@
 /* SECTION BASE */
 .steps-section {
-  background: #0c0c0c; /* deep black background */
+  background: #0c0c0c; 
   padding: 100px 40px;
   font-family: "Inter", sans-serif;
   color: white;
@@ -8,8 +8,8 @@
 
 /* CONTAINER */
 .steps-container {
-  max-width: 1300px;
-  margin: auto;
+  max-width: 1200px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
